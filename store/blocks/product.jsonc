@@ -44,11 +44,25 @@
     ]
   },
 
+  "product-name": {
+  "props": {
+    "showSku": true,
+    "showBrandName": true
+  }
+},
+
   "product-price": { 
     "props": { 
       "showSavings": true,
       "showListPrice": true
 }
+},
+
+"buy-button#product": {
+  "props": {
+    "isOneClickBuy": true,
+    "showTooltipOnSkuNotSelected": false
+  }
 },
 
 "stack-layout#brand": {
@@ -62,6 +76,17 @@
   "props": { 
   "displayMode": "logo",
   "height": 30
+},
+
+"product-images": {
+  "props": {
+    "displayThumbnailsArrows": true
+  }
+},
+"product-quantity": {
+  "props": {
+    "warningQuantityThreshold": 9999999
+  }
 },
 
 "sku-selector": {

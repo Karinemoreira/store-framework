@@ -32,11 +32,3 @@
       margin: 0 auto;
       padding: 0 auto;
   }
-
-.image#desktop {
-    max-width: 100%;
-}
-
-.image#mobile {
-    max-width: 100%;
-}

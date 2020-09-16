@@ -54,19 +54,6 @@
     "props": {
       "width": "20%"
   }
-},
-
-"flex-layout.col#right": { 
-  "children": [
-    "search-content",
-    "product-summary"
-]
-},
-
-"flex-layout.col#left": { 
-  "children": [
-    "filter-navigator.v3",
-    "product-summary"
-  ]  
 }
+
 }

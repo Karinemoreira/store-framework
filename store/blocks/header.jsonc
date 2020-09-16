@@ -15,7 +15,8 @@
     "header-layout.desktop": {
       "children": [
         "header-row#notification",
-        "header-row#main"
+        "header-row#main",
+        "header-row#menu"
       ]
     },
   
@@ -51,12 +52,38 @@
     }
 },
 
+"header-row#menu": {
+  "children": [
+    "header-spacer",
+    "vtex.menu@2.x:menu#categories",
+    "header-spacer"
+  ]
+},
+
+"drawer": {
+  "children": [
+    "menu#drawer"
+  ]
+},
+
+"menu#drawer": {
+  "children": [
+    "menu-item#category-clothing",
+    "menu-item#category-decoration",
+    "menu-item#custom-sale"
+  ],
+  "props": {
+    "orientation": "vertical"
+  }
+},
+
 "header-row#main-mobile": {
     "children": [
       "logo",
       "header-spacer",
       "minicart",
-      "login"
+      "login", 
+      "menu#drawer"
     ],
   
     "props": {

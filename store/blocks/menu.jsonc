@@ -51,17 +51,16 @@
   "vtex.menu@2.x:menu#electronics":{
     "children":[
       "vtex.menu@2.x:menu#electronics"
-    ]
+    ],
+      "props":{
+          "orientation":"vertical"
+      }   
   },
 
   "vtex.menu@2.x:submenu#electronics": {
       "children": [
           "menu-item#cameras", "menu-item#laptops", "menu-item#tvs"
-      ],
-      "props":{
-          "orientation":"vertical"
-      }   
+      ]
   }
-  }
-
+}
 

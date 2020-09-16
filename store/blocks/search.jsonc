@@ -58,17 +58,15 @@
 
 "flex-layout.col#right": { 
   "children": [
-    "filter-navigator.v3",
+    "search-content",
     "product-summary"
 ]
 },
 
 "flex-layout.col#left": { 
   "children": [
-    "search-content",
+    "filter-navigator.v3",
     "product-summary"
-]
+  ]  
 }
-
-
 }

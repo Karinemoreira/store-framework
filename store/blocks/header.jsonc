@@ -62,7 +62,7 @@
 
 "drawer": {
   "children": [
-    "menu#drawer"
+    "drawer"
   ]
 },
 

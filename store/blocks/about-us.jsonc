@@ -57,6 +57,7 @@
 
     "rich-text#home1": {
         "props": {
+        "tabId": "majorAppliances",
           "text": "Área do conteúdo da tab-list.item com  tabId = majorAppliances",
           "textPosition": "CENTER",
           "font": "t-heading-3"
@@ -64,6 +65,7 @@
       },
       "rich-text#home2": {
         "props": {
+        "tabId": "majorAppliances",
           "text": "Área do conteúdo da tab-list.item com  tabId = electronics",
           "textPosition": "CENTER",
           "font": "t-heading-3"

@@ -1,6 +1,6 @@
 {
     "store.custom#about-us": {
-      "path": "/{URL}"
+      "path": "/{{workspace}--appliancetheme.myvtex.com/about-us}"
     }
   }
   

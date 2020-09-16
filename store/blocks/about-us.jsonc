@@ -23,7 +23,7 @@
 
     "tab-list.item#home1": {
         "props": {
-            "text": "#About",
+            "text": "About",
             "textPosition": "LEFT",
             "textAlignment": "LEFT",
             "tabId": "majorAppliances",

@@ -29,9 +29,24 @@
     ],
 
     "props":{
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item#refrigerators",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Shop",
+            "text": "Shop"
+          
+          }
+        
     }
-  },
+],
 
 "vtex.menu@2.x:submenu#small":{
     "children":[
@@ -42,8 +57,7 @@
   "vtex.menu@2.x:menu#small": {
       "children": [
         "menu-item#mixers", "menu-item#toasters", "menu-item#coffee"],
-
-  "props":{
+    "props":{
     "orientation": "vertical"
   }
 },
@@ -66,5 +80,5 @@
   "menu-item#electronics": {
       "children":["vtex.menu@2.x:submenu#electronics"]
   }
-}
 
+}

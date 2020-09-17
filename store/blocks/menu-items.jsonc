@@ -1,6 +1,6 @@
 {
   "menu-item#major-appliances": {
-      "blocks": ["vtex.menu@2.x:submenu#major", "flex-layout.row#major"],
+      "blocks": ["vtex.menu@2.x:submenu#major"],
       "props": {
       "type": "custom",
       "highlight": true,
